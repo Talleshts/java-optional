@@ -1,5 +1,9 @@
 # java-optional
-Estudo dos métodos inclusos no Optional do Java Util
+>Estudo dos métodos inclusos na classe Optional do Java Util.
+>
+>Com base na [Documentação](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)
+>
+>E nos materiais disponibilizados pelo Professor Dr. Clayton Vieira Fraga Filho na disciplina de 2024-1 - Projeto de Sistemas de Software
 
 # Projeto: Uso da Classe Optional em Java
 
@@ -65,7 +69,7 @@ public class Main {
         Ativo ativo = repository.findByCodigo("VALE3").get();
         System.out.println("Ativo encontrado: " + ativo.getNome());
 
-        // Outros exemplos de uso...
+        //Demais exemplos de uso
     }
 }
 ```
